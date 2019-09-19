@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+  width: 600px;
+  margin: auto;
+}
+
+.gallery-container {
+  width: 500px;
+  position: relative;
+}
+
+.picture {
+  display: none;
+}
+
+img {
+  width: 100%;
+}
+
+.arrow {
+  color: red;
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+}
+
+.next {
+  right: 0;
+}
+
+.navigation-dots {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.dot {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: lightblue;
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.active,
+.dot:hover {
+  background-color: pink;
+}

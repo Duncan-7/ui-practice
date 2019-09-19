@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UI Practice</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="gallery-container">
+
+      <div class="arrow prev" onclick="nextSlide(-1)">&#10094</div>
+      <div class="arrow next" onclick="nextSlide(1)">&#10095</div>
+      
+      <div class="picture">        
+        <img src="images/snake1.jpg" />
+      </div>
+      <div class="picture">
+        <img src="images/snake2.jpg" />
+      </div>
+      <div class="picture">
+        <img src="images/snake3.jpg" />
+      </div>
+      <div class="picture">
+        <img src="images/snake4.jpg" />
+      </div>
+
+      <div class="navigation-dots">
+        <span class="dot" onclick="chooseSlide(1)"></span>
+        <span class="dot" onclick="chooseSlide(2)"></span>
+        <span class="dot" onclick="chooseSlide(3)"></span>
+        <span class="dot" onclick="chooseSlide(4)"></span>
+      </div>
+      
+
+    </div>
+    
+
+    <script type="text/javascript" src="slider.js"></script>
+  </body>
+</html>
